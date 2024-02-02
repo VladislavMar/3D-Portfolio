@@ -16,7 +16,7 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    unit,
     tesla,
     shopify,
     carrent,
@@ -92,10 +92,12 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
+    /*
     {
       name: "MongoDB",
       icon: mongodb,
     },
+    */
     {
       name: "Three JS",
       icon: threejs,
@@ -104,6 +106,7 @@ import {
       name: "git",
       icon: git,
     },
+    /*
     {
       name: "figma",
       icon: figma,
@@ -112,15 +115,16 @@ import {
       name: "docker",
       icon: docker,
     },
+    */
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Front - end Developer",
+      company_name: "UNIT Studio",
+      icon: unit,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2023 - January 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -128,6 +132,7 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    /*
     {
       title: "React Native Developer",
       company_name: "Tesla",
@@ -167,6 +172,7 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    */
   ];
   
   const testimonials = [
