@@ -20,7 +20,7 @@ const ServiceCard = ({ index, title, icon }) => {
             scale: 1,
             speed: 450
           }}
-          className="bg-tertiary rounded-[20px]
+          className="bg-[#6c6cc5] rounded-[20px]
           py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col" 
         >
           <img src={icon} alt={title}
@@ -44,7 +44,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl
+        className="mt-4 text-[#000000] text-[17px] max-w-3xl
         leading-[30px]"
       >
         Hello there! I'm Vlad. I specialize on building dynamic
